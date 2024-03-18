@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: "Roboto";
+}
+
+.mainDiv {
+    margin-top: calc(50vh - 380px);
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px 20px;
+}
+
+.info1, .info2, .info3, .info4, .info5 {
+    width: 450px;
+    border: 2px solid black;
+    height: 250px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px 2px;
+}
+
+img {
+    width: 25px;
+}
+
+h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    padding-top: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+a {
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.info1 img {
+    position: relative;
+    left: 45px;
+    top: 25px;
+}
+
+.info2 img {
+    position: relative;
+    left: 120px;
+    top: 25px;
+}
+
+.info3 img {
+    position: relative;
+    left: 60px;
+    top: 25px;
+}
+
+.info4 img {
+    position: relative;
+    left: 120px;
+    top: 25px;
+}
+
+.info5 img {
+    position: relative;
+    left: 70px;
+    top: 25px;
+}
+
+.tele {
+    display: flex;
+    justify-content: space-around;
+}
+
+a:hover {
+    opacity: 50%;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
